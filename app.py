@@ -44,6 +44,7 @@ class ListaDesenvolvedores(Resource):
     def get(self):
         return desenvolvedores
 
+#ATT
     def post(self):
         dados = json.loads(request.data)
         posicao = len(desenvolvedores)
